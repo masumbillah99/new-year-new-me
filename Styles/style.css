@@ -5,9 +5,10 @@
 }
 
 .header {
-    background-image: url(../images/banner/banner3.png);
-    background-repeat: no-repeat;
+    background-image: url(../images/banner/banner2.png);
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .header .header-info {
@@ -16,23 +17,157 @@
     margin-right: 230px;
 }
 
-.header-info .info-title {
-    color: #fff;
+.header-info .header-title {
+    color: #151414;
     font-size: 65px;
     font-weight: 700;
 }
 
-.header-info .info-description {
-    color: #fff;
+.header-description {
+    color: #151414;
     margin: 24px 0 32px;
+}
+
+.contact-us-btn {
+    border: none;
+    border-radius: 5px;
+    background-color: #F15B22;
+    color: #ffffff;
+    padding: 20px 25px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+/* section > my-failures-previous-year */
+.my-failures {
+    margin: 130px 206px;
+    display: flex;
+    align-items: center;
+    gap: 90px;
+}
+
+.my-failures img {
+    width: 565px;
+}
+
+.info-title {
+    font-size: 40px;
+    font-weight: 700;
+    color: #151414;
+}
+
+.info-description {
+    color: #151414;
+    margin: 24px 0;
+}
+
+.failure-list li {
+    list-style: none;
+}
+
+.failure-list li i {
+    color: #008000;
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+
+/* section > my plans this year */
+.my-plan-sec {
+    margin: 0 230px 130px;
+}
+
+.my-plan-sec .info-title {
+    text-align: center;
+}
+
+.my-plans {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.my-plans .plan-title {
+    font-size: 30px;
+    font-weight: 600;
+    color: #151414;
+    margin: 24px 0 16px;
+}
+
+.my-plans .plan-text {
+    font-size: 25px;
+    color: #737272;
+}
+
+
+/* section > keep a positive mindset */
+.positive-mindset {
+    margin: 0 230px 130px;
+    background-image: url(../images/gradient2.png), url(../images/watch.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 300px;
+}
+
+.positive-mindset .mindset-info {
+    padding-left: 265px;
+    padding-top: 60px;
+}
+
+.mindset-title {
+    font-size: 40px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 24px;
+}
+
+
+/* footer / contact information */
+.contact-sec {
+    background-color: #151414;
+    height: 580px;
+    display: flex;
+}
+
+.contact-sec .contact-info {
+    margin: 0 230px;
+    padding-top: 130px;
+}
+
+.contact-info .contact-description {
+    color: #ffffff;
+    margin: 24px 0 32px;
+}
+
+.social-links {
+    display: flex;
+    gap: 35px;
+}
+
+.contact-info .contact-title {
+    color: #ffffff;
+}
+
+.contact-info input {
+    width: 325px;
+    height: 64px;
+    margin: 30px 0 16px;
+    padding-left: 21px;
+    color: #f3f3f3;
+    background-color: #151414;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
 }
 
 .info-btn {
     border: none;
     border-radius: 5px;
-    background-color: #fff;
-    color: #2073B6;
-    padding: 20px 25px;
+    background-color: #ffffff;
+    color: #F15B22;
+    padding: 20px 35px;
     font-size: 20px;
     font-weight: 600;
 }
