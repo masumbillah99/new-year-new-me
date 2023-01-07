@@ -39,9 +39,42 @@
 }
 
 
+/* section > about me */
+#about-me {
+    max-width: 1140px;
+    margin: 130px auto;
+    padding: 131px 155px;
+    background: #f3f3f3;
+    text-align: center;
+}
+
+.about-description {
+    font-size: 18px;
+    color: #737272;
+    margin: 30px 0;
+    line-height: 30px;
+}
+
+#about-me .about-me-info {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+.about-me-info p {
+    color: #737272;
+}
+
+.about-me-info .about-subtitle {
+    font-size: 20px;
+    font-weight: 700;
+    color: #151414;
+}
+
+
 /* section > my-failures-previous-year */
 .my-failures {
-    margin: 130px 206px;
+    margin: 130px 210px;
     display: flex;
     align-items: center;
     gap: 90px;
